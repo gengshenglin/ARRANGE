@@ -1,0 +1,16 @@
+# 横向联邦
+horizontal_fl:
+  # 数据集存放路径
+  data_path: 'dataset\MNIST'
+  # 客户端数量
+  # 设为1时则训练一个客户端
+  # 客户端数量应能被特征数整除，fashion-mnist的特征数为28*28
+  client_num: 8
+  # 采样比例
+  sample_rate: 0.125
+  # 超参数
+  lr: 0.01
+  epochs: 100
+  local_epochs: 5 # FedAvg本地训练次数
+  bs: 128
+  gamma: 0
