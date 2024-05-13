@@ -1,1 +1,2 @@
-# ARRANGE
+这是使用Pytorch实现ARRANGE
+主函数为train_horizontal.py
